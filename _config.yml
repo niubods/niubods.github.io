@@ -1,0 +1,22 @@
+permalink: /:title 
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+auto: true
+markdown: redcarpet
+pygments: true
+paginate: 10
+title : 牛叔的杂货铺
+tagline: 新奇好玩的技术，对技术问题的思考
+author :
+  name : NiuboDS
+  email : niubods@gmail.com
+  github : niubods
+  twitter : niubods
+
+production_url : http://niubods.github.io
+
+comments :
+  provider : disqus
+  disqus :
+    short_name : niubods-blog
+
